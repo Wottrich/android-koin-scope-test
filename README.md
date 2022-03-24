@@ -1,2 +1,2 @@
 # android-koin-scope-test
-Trying to undestand how koin scope works
+Trying to understand how koin scope works
