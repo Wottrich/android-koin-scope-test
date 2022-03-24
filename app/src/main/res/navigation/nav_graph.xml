@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/fragment_a"
+        android:name="teste.da.galerinha.koinscopetest.FragmentA">
+        <action
+            android:id="@+id/action_fragment_a_to_fragment_b"
+            app:destination="@id/fragment_b" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_b"
+        android:name="teste.da.galerinha.koinscopetest.FragmentB">
+        <action
+            android:id="@+id/action_fragment_b_to_fragment_c"
+            app:destination="@id/fragment_c"
+            app:popUpTo="@id/fragment_a"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_c"
+        android:name="teste.da.galerinha.koinscopetest.FragmentC"/>
+
+</navigation>
