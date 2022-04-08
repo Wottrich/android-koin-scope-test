@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/fragment_a"
-        android:name="teste.da.galerinha.koinscopetest.koinScopeWithFragment.TestKoinScopeWithFragmentFragmentA">
+        android:name="teste.da.galerinha.koinscopetest.koinScopeWithActivity.TestKoinScopeWithActivityFragmentA">
         <action
             android:id="@+id/action_fragment_a_to_fragment_b"
             app:destination="@id/fragment_b" />
@@ -14,7 +14,7 @@
 
     <fragment
         android:id="@+id/fragment_b"
-        android:name="teste.da.galerinha.koinscopetest.koinScopeWithFragment.TestKoinScopeWithFragmentFragmentB">
+        android:name="teste.da.galerinha.koinscopetest.koinScopeWithActivity.TestKoinScopeWithActivityFragmentB">
         <action
             android:id="@+id/action_fragment_b_to_fragment_c"
             app:destination="@id/fragment_c"
@@ -23,6 +23,6 @@
 
     <fragment
         android:id="@+id/fragment_c"
-        android:name="teste.da.galerinha.koinscopetest.koinScopeWithFragment.TestKoinScopeWithFragmentFragmentC"/>
+        android:name="teste.da.galerinha.koinscopetest.koinScopeWithActivity.TestKoinScopeWithActivityFragmentC"/>
 
 </navigation>
